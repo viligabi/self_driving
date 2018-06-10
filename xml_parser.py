@@ -26,7 +26,7 @@ def parse_xml(xml_file):
         xml_file: str, location of xml file
     Returns
         image_path: str
-        labels:     list of [xmin,ymin,xmax,ymax, class]
+        labels:     list of [xmin, ymin, xmax, ymax, class]
     """
     tree = ET.parse(xml_file)
     root = tree.getroot()
