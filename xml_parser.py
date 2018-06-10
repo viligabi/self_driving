@@ -1,3 +1,8 @@
+"""
+XML parser for LabelImg xml files
+https://github.com/tzutalin/labelImg
+"""
+
 import glob, os
 import xml.etree.ElementTree as ET
 
